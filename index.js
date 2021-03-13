@@ -47,8 +47,8 @@ app.post('/contact', (req, res)=>{
     port: 587,
     secure: false, // upgrade later with STARTTLS
     auth: {
-      user: 'dido43231@gmail.com',
-      pass: 'o22Pd8xqzEb7'
+      user: '', // Enter here our Email Address to send emails
+      pass: '' // Enter here our Email Password so we can send emails
     },
     tls: {
       rejectUnauthorized: false
